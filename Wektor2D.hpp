@@ -5,41 +5,42 @@ using namespace std;
 
 class Wektor2D
 {
-    Wektor2D() 
-    {
-        x = 0;
-        y = 0;
-    }
+    public:
+        Wektor2D() 
+        {
+            x = 0;
+            y = 0;
+        }
 
-      Wektor2D(double X, double Y) 
-    {
-        x = X;
-        y = Y;
-    }
+        Wektor2D(double X, double Y) 
+        {
+            x = X;
+            y = Y;
+        }
 
-    ~Wektor2D() 
-    {
-    }
+        ~Wektor2D() 
+        {
+        }
 
-    void setX(double X)
-    {
-        x = X;
-    }
+        void setX(double X)
+        {
+            x = X;
+        }
 
-    void setY(double Y)
-    {
-        y = Y;
-    }
+        void setY(double Y)
+        {
+            y = Y;
+        }
+    
+        double getX()
+        {
+            return x;
+        }
 
-    double getX()
-    {
-        return x;
-    }
-
-    double getY()
-    {
-        return y;
-    }
+        double getY()
+        {
+            return y;
+        }
 
     private: 
         double x, y;
