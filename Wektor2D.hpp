@@ -9,18 +9,16 @@ class Wektor2D
     {
         x = 0;
         y = 0;
-        cout << "Wspolrzedne utworzonego wektora to: [" <<x << ", " << y << "]" << "\n";
     }
+
       Wektor2D(double X, double Y) 
     {
         x = X;
         y = Y;
-        cout << "Wspolrzedne utworzonego wektora to: [" <<x << ", " << y << "]" << "\n";
     }
 
     ~Wektor2D() 
     {
-        cout << "Wspolrzedne niszczonego wektora to: [" <<x << ", " << y << "]" << "\n";
     }
 
     void setX(double X)
